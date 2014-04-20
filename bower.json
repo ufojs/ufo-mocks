@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "homepage": "https://github.com/ufojs/ufo-mocks",
   "authors": [
-    "Pasquale Boemio <boemianrapsodi@gmail.com>"
+    "Pasquale Boemio <boemianrapsodi@gmail.com>",
+    "Antonio Bevilacqua <b3by.in.th3.sky@gmail.com>"
   ],
   "description": "Class mocks for ufo.js projects",
   "keywords": [
