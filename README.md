@@ -11,12 +11,6 @@ Class mocks for ufo.js projects
 
 Please, fork or tip :)
 
-<img src="https://avatars1.githubusercontent.com/u/1024472?s=460" width="130">
+[![Gittip](http://img.shields.io/gittip/helloIAmPau.svg)](https://www.gittip.com/helloIAmPau/) Pasquale Boemio <boemianrapsodi@gmail.com>
 
-Pasquale Boemio <boemianrapsodi@gmail.com>
-[![Gittip](http://img.shields.io/gittip/helloIAmPau.svg)](https://www.gittip.com/helloIAmPau/)
-
-<img src="https://avatars1.githubusercontent.com/u/472900?s=460" width="130">
-
-Antonio Bevilacqua <b3by.in.th3.sky@gmail.com>
-[![Gittip](http://img.shields.io/gittip/b3by.svg)](https://www.gittip.com/b3by/)
+[![Gittip](http://img.shields.io/gittip/b3by.svg)](https://www.gittip.com/b3by/) Antonio Bevilacqua <b3by.in.th3.sky@gmail.com>
