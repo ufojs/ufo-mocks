@@ -1,15 +1,10 @@
-﻿{MockWebSocket} = require './websocket.mock'
-
-class WebSocket extends MockWebSocket
-  constructor: () ->
-
-class MockWebSocketServer
+﻿class MockWebSocketServer
+  @socketToSpawn: {}
   constructor: () ->
   listen: () ->
     self = this
-    socket = new WebSocket
     callCallback = () ->
-      self.onopen socket
+      self.onopen MockWebSocketServer.socketToSpawn
     setTimeout callCallback, 50
     
   onopen: (socket) ->
