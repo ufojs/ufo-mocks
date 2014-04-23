@@ -4,5 +4,7 @@
   remove: (id) ->
   getNodeList: () ->
     return []
+  getNode: (id) ->
+    return { }
 
 exports.MockList = MockList
