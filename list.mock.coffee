@@ -1,10 +1,16 @@
-﻿class MockList
+﻿{MockPeer} = require 'MockPeer'
+
+class MockList
   constructor: () ->
+
   add: (id, node) ->
+
   remove: (id) ->
+
   getNodeList: () ->
-    return []
+    return [ ]
+
   getNode: (id) ->
-    return { }
+    return new MockPeer
 
 exports.MockList = MockList
