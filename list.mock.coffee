@@ -1,4 +1,6 @@
-﻿class MockList
+﻿{MockPeer} = require './peer.mock'
+
+class MockList
   constructor: () ->
 
   add: (id, node) ->
