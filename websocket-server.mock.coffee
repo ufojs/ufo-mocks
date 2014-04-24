@@ -1,5 +1,7 @@
-﻿class MockWebSocketServer
-  @socketToSpawn: {}
+﻿{MockWebSocket} = require './websocket.mock'
+
+class MockWebSocketServer
+  @socketToSpawn: new MockWebSocket
   constructor: () ->
   listen: () ->
     self = this
