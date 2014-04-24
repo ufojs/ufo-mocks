@@ -3,4 +3,4 @@ class MockPeeringPacket
   setOffer: (offer) ->
     this.offer = offer
 
-export.MockPeeringPacket = MockPeeringPacket
+exports.MockPeeringPacket = MockPeeringPacket
