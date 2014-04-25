@@ -1,4 +1,5 @@
 class MockPeerConnection
+  channel: {}
   constructor: (conf) ->
   createOffer: (onOfferReady, onOfferFail) ->
     onOfferReady {'type': 'offer', 'sdp': 'sdp'}
@@ -8,6 +9,7 @@ class MockPeerConnection
   setRemoteDescription: (sdp) ->
     this.remoteDescription = sdp
   createDataChannel: (label, opts) ->
+    return this.channel
 
 exports.MockPeerConnection = MockPeerConnection
 
